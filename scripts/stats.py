@@ -4,7 +4,7 @@ Run locally:   GH_TOKEN=<token> GH_USER=KARTHIKEYA-BODA python scripts/stats.py
 In Actions:    see .github/workflows/update-stats.yml (runs daily).
 Only the standard library is used.
 """
-import json, os, sys, urllib.request
+import hashlib, json, os, re, sys, urllib.request
 from datetime import date, datetime, timedelta
 
 BG, BONE, MUTE = "#0A0C11", "#E8ECF4", "#8693AB"
@@ -117,8 +117,22 @@ def main():
     tiles = [(total, f"Contributions since {first}"), (last_year, "Contributions, last 12 months"),
              (repos, "Repositories"), (longest, "Day longest streak"), (followers, "Followers")]
     out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "stats.svg")
-    with open(out, "w") as f:
-        f.write(render(tiles, months))
+    svg = render(tiles, months)
+    with open(out, "w", encoding="utf-8") as f:
+        f.write(svg)
+    digest = hashlib.sha256(svg.encode("utf-8")).hexdigest()[:12]
+    readme = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "README.md")
+    with open(readme, encoding="utf-8") as f:
+        content = f.read()
+    updated, count = re.subn(
+        r'(src="assets/stats\.svg)(?:\?v=[0-9a-f]+)?(")',
+        rf'\1?v={digest}\2',
+        content,
+        count=1,
+    )
+    if count:
+        with open(readme, "w", encoding="utf-8") as f:
+            f.write(updated)
     print("wrote", out)
 
 
