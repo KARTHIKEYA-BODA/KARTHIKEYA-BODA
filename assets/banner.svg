@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Karthikeya Boda — system online</title><desc id="desc">A dark control room banner with amber typography.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#202832" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="300" rx="12" fill="#0a0c10"/><rect width="1200" height="300" rx="12" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="298" rx="11" fill="none" stroke="#303842" stroke-width="2"/>
+<rect x="56" y="52" width="8" height="14" fill="#ff9f1c"/><text x="80" y="64" fill="#ff9f1c" font-family="monospace" font-size="16" letter-spacing="4">SYSTEM ONLINE</text>
+<text x="56" y="151" fill="#e6edf3" font-family="monospace" font-weight="bold" font-size="58" textLength="950" lengthAdjust="spacingAndGlyphs">KARTHIKEYA BODA</text>
+<text x="58" y="205" fill="#c9d1d9" font-family="monospace" font-size="22">&gt; B.TECH CSE (AI &amp; ML)  /  PYTHON  /  WEB</text>
+<path d="M58 237 H1138" stroke="#303842"/><text x="58" y="267" fill="#6e7681" font-family="monospace" font-size="14" letter-spacing="2">ENGINEERING  /  LEARNING  /  BUILDING</text><text x="1090" y="267" fill="#ff9f1c" font-family="monospace" font-size="16">_</text>
+</svg>
