@@ -32,7 +32,7 @@
 
 ### GitHub stats
 
-<img src="assets/stats.svg" alt="Automatically refreshed GitHub contribution, repository, streak, and follower statistics" width="100%">
+<img src="assets/stats.svg?v=9b0fafd66592" alt="Automatically refreshed GitHub contribution, repository, streak, and follower statistics" width="100%">
 
 <img src="assets/divider.svg" alt="" width="100%">
 
