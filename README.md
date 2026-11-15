@@ -8,7 +8,7 @@
 ### [01] IDENTITY
 
 ```text
-$ whoami     Karthikeya Boda
+$ who_am_i     Karthikeya Boda
 $ role       B.Tech CSE (AI & ML) student
 $ focus      AI/ML, Python and web development
 $ learning   Data structures and algorithms
