@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Let's build something worth deploying.">
+<rect width="1200" height="120" rx="14" fill="#0A0C11"/><rect x=".5" y=".5" width="1199" height="119" rx="14" fill="none" stroke="#171C28"/>
+<ellipse cx="600" cy="62" rx="10" ry="5.8" fill="none" stroke="#FF6B4A" stroke-width="2" opacity="0"><animate attributeName="rx" values="10;150" dur="3s" repeatCount="indefinite"/><animate attributeName="ry" values="5.8;40" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="3s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="600" cy="62" rx="10" ry="5.8" fill="none" stroke="#FF6B4A" stroke-width="2" opacity="0"><animate attributeName="rx" values="10;150" dur="3s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="ry" values="5.8;40" dur="3s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="3s" begin="1.5s" repeatCount="indefinite"/></ellipse>
+<path d="M600 62V40" stroke="#3A4670" stroke-width="4"/><circle cx="600" cy="34" r="7" fill="#FF6B4A"/>
+<text x="600" y="104" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="17" fill="#8693AB">Let's build something worth deploying.</text>
+</svg>

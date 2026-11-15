@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 150" width="410" height="150" role="img" aria-label="MR.DOC, Python and Gemini API">
+<rect x="1" y="1" width="408" height="148" rx="12" fill="#0E121B" stroke="#1B2232"/>
+<rect x="1" y="1" width="408" height="148" rx="12" fill="none" stroke="#C9D6FF" stroke-width="2" pathLength="100" stroke-dasharray="9 91" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-100" dur="7s" begin="0.0s" repeatCount="indefinite"/></rect>
+<polygon points="41.5,62.0 64.0,75.0 64.0,89.0 41.5,76.0" fill="#1B2332" stroke="#5B6BFF" stroke-opacity=".3"/><polygon points="86.5,62.0 64.0,75.0 64.0,89.0 86.5,76.0" fill="#121823" stroke="#5B6BFF" stroke-opacity=".3"/><polygon points="64.0,49.0 86.5,62.0 64.0,75.0 41.5,62.0" fill="#A33A5A" stroke="#5B6BFF" stroke-opacity=".6"/>
+<polygon points="41.5,86.0 64.0,99.0 64.0,113.0 41.5,100.0" fill="#1B2332" stroke="#5B6BFF" stroke-opacity=".3"/><polygon points="86.5,86.0 64.0,99.0 64.0,113.0 86.5,100.0" fill="#121823" stroke="#5B6BFF" stroke-opacity=".3"/><polygon points="64.0,73.0 86.5,86.0 64.0,99.0 41.5,86.0" fill="#2B3548" stroke="#5B6BFF" stroke-opacity=".6"/>
+<polygon points="41.5,110.0 64.0,123.0 64.0,137.0 41.5,124.0" fill="#1B2332" stroke="#5B6BFF" stroke-opacity=".3"/><polygon points="86.5,110.0 64.0,123.0 64.0,137.0 86.5,124.0" fill="#121823" stroke="#5B6BFF" stroke-opacity=".3"/><polygon points="64.0,97.0 86.5,110.0 64.0,123.0 41.5,110.0" fill="#2B3548" stroke="#5B6BFF" stroke-opacity=".6"/>
+<text x="124" y="60" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="21" font-weight="700" fill="#E8ECF4">MR.DOC</text>
+<circle cx="130" cy="80" r="5" fill="#A33A5A"/><text x="142" y="85" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#8693AB">Python · Gemini API</text>
+<text x="124" y="118" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#B5C0D4">AI-powered medical document copilot.</text>
+</svg>

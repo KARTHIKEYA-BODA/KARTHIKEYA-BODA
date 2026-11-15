@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24" role="presentation">
+<defs><linearGradient id="p"><stop offset="0" stop-color="#5B6BFF" stop-opacity="0"/><stop offset=".7" stop-color="#C9D6FF" stop-opacity=".9"/><stop offset="1" stop-color="#C9D6FF"/></linearGradient></defs>
+<path d="M0 12H1200" stroke="#1D2434"/>
+<g transform="translate(600 12)"><polygon points="-9.0,0.0 0.0,-5.0 9.0,0.0 0.0,5.0" fill="#141A26" stroke="#5B6BFF" stroke-opacity=".7"/></g>
+<rect x="-160" y="11" width="160" height="2" fill="url(#p)"><animate attributeName="x" values="-160;1200" dur="5s" repeatCount="indefinite"/></rect>
+</svg>
